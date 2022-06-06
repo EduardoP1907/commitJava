@@ -1,0 +1,17 @@
+public class main {
+    public static void main(String[] args){
+        Scanner cn = new Scanner(System.in);
+        String[] nombre = new String[10];
+        int nJugadores = 0;
+        boolean salir = false;
+        int op; //Guardaremos la opcion del usuario
+        while(!salir){
+            //Imprime el Menu de Opciones
+            System.out.println("=============================");
+            System.out.println("|   Juego de Cartas Dobble  |");
+            System.out.println("=============================");
+            System.out.println("Dobble es un increíble juego de mesa de rapidez mental y visual. "); //Descripcion del Juego
+            System.out.println("El concepto es simple: cada una de las 55 cartas del mazo tiene "); //Descripcion del Juego
+            System.out.println("ocho símbolos y siempre hay exactamente un símbolo coincidente "); //Descripcion del Juego
+            System.out.println("entre dos cartas cualquiera en el mazo.Tu objetivo es ser el más"); //Descripcion del Juego
+            System.out.println("rápido en encontrar la coincidencia entre dos cartas.");
