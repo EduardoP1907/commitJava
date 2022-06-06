@@ -1,0 +1,17 @@
+public class Carta {
+    
+    //Atributos
+    private int carta;
+    
+    //Constantes
+    public static final int elemento = 8;
+    //Constructor
+    public Carta(int carta) {
+        this.carta = carta;
+    }
+
+    @Override
+    public String toString() {
+        return "Carta{" + "carta=" + carta + '}';
+    }    
+}
