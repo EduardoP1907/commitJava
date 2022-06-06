@@ -1,0 +1,13 @@
+ System.out.println("");
+            System.out.println(">>>>>>>>>>>>> MENU <<<<<<<<<<");
+            System.out.println("1. Registrar Jugador");
+            System.out.println("2. Jugar");
+            System.out.println("3. Salir");
+            op = cn.nextInt();
+            try{
+                switch(op){
+                case 1: //Registro de los jugadores
+                    System.out.println("Ingrese la cantidad de jugadores que desea registrar (2 - 6 Personas):");
+                    nJugadores = cn.nextInt();//Toma de datos por el Teclado
+                    if (nJugadores <= 6 && nJugadores >=2 ) {//Valida un numero en tre 2 y 6 
+                        for (int i = 0; i < nJugadores; i++)
