@@ -1,0 +1,24 @@
+//Iniciar Bucles para los turnos
+                            for (int i = 0; i < cTurno; i++) {
+                                System.out.println("Ronda Numero "+(i+1));
+                                System.out.println("");
+                                for (int j = 0; j < nJugadores; j++) {
+                                    System.out.println("Turno de "+nombre[j]);
+                                    System.out.println("");
+                                    
+                                    baraja b = new baraja();//Traigo 2 Cartas aleatorias
+                                    int cartUno = b.posAleatoria;
+                                    int cartDos = b.posAleatoria2;
+                                    System.out.println("");
+                                    //System.out.println("Posicion de la carta 1: "+(cartUno+1));
+                                    int psMaso = (cartUno);
+                                    //System.out.println("Posicion de la carta 2: "+(cartDos+1));
+                                    int pdMaso = (cartDos);
+                                    
+                                    
+                                    for (int k = 0; k < 1; k++) {//SACO LA CARTA EN UN VECTOR
+                                        //System.out.println("Comp: ");
+                                        for (int l = 0; l < 8; l++) {
+                                            //System.out.print(" "+maso[psMaso][l]);
+                                            cComparar[l] = maso[psMaso][l];
+                                            //System.out.print(" "+cComparar[k]);
