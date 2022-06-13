@@ -1,0 +1,17 @@
+ System.out.println(">>>> RESULTADOS <<<<");
+                            System.out.println("> Ganador del juego: ");
+                            if (puntajeUno > puntajeDos && puntajeUno > puntajeTres && puntajeUno > puntajeCuatro && puntajeUno > puntajeCinco) {
+                                System.out.println("> "+nombre[0]);
+                                System.out.println("Puntaje : "+puntajeUno+".");
+                            } else if(puntajeDos > puntajeUno && puntajeDos > puntajeTres && puntajeDos > puntajeCuatro && puntajeDos > puntajeCinco) {
+                                System.out.println("> "+nombre[1]);
+                                System.out.println("Puntaje : "+puntajeDos+".");
+                            }else if (puntajeTres > puntajeDos && puntajeTres > puntajeUno && puntajeTres > puntajeCuatro && puntajeTres > puntajeCinco){
+                                System.out.println("> "+nombre[2]);
+                                System.out.println("Puntaje : "+puntajeTres+".");
+                            }else if (puntajeCuatro > puntajeDos && puntajeCuatro > puntajeUno && puntajeCuatro > puntajeTres && puntajeCuatro > puntajeCinco){
+                                System.out.println("> "+nombre[3]);
+                                System.out.println("Puntaje : "+puntajeTres+".");
+                            }else if (puntajeCinco > puntajeDos && puntajeCinco > puntajeUno && puntajeCinco > puntajeTres && puntajeCinco > puntajeCuatro){
+                                System.out.println("> "+nombre[4]);
+                                System.out.println("Puntaje : "+puntajeTres+".");
