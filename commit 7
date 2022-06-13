@@ -1,0 +1,12 @@
+}else if(nJugadores == 6){//Cuando son 6 jugadores
+                            cTurno = 9;
+                            int[] cComparar = new int[8];
+                            int[] cComparar2 = new int[8];
+                            int puntajeUno = 0;
+                            int puntajeDos = 0;
+                            int puntajeTres = 0;
+                            int puntajeCuatro = 0;
+                            int puntajeCinco = 0;
+                            int puntajeSeis = 0;
+                            System.out.println("Cantidad de turnos: "+cTurno);
+                            System.out.println("");
