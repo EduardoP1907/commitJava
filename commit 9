@@ -1,0 +1,8 @@
+System.out.println(">>>> RESULTADOS <<<<");
+                            System.out.println("> Ganador del juego: ");
+                            if (puntajeUno > puntajeDos) {
+                                System.out.println("> "+nombre[0]);
+                                System.out.println("Puntaje : "+puntajeUno+".");
+                            } else {
+                                System.out.println("> "+nombre[1]);
+                                System.out.println("Puntaje : "+puntajeDos+".");
