@@ -1,0 +1,12 @@
+System.out.println("");
+                                    System.out.println("Digite la figura IDENTICA entra las dos Cartas");
+                                    cSeleccionada = cn.nextInt();
+                                    boolean band = false;
+                                    int x = 0;
+                                    while(x < 8 && band == false){
+                                        if (sNSeme == cSeleccionada) {
+                                            band =true;
+                                        }
+                                        x++;
+                                    }
+                                    //Condiciona para la puntuacion y el contador de Ganador
